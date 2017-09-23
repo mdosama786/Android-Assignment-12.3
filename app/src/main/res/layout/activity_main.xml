@@ -1,0 +1,25 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:gravity="center"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+
+
+
+    <Button
+        android:id="@+id/dbutton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/alertdfragbutton"
+        android:layout_marginLeft="50dp"
+        android:text="@string/dialog" />
+
+    <Button
+        android:id="@+id/alertdfragbutton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/dbutton"
+        android:layout_marginTop="26dp"
+        android:text="@string/alertdialogfragment" />
+
+</RelativeLayout>
